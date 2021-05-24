@@ -35,7 +35,7 @@ def coefficients(start_point: float, end_point: float, step_size: float) -> tupl
                     a_1 = start_point + a_1_i * step_size
                     a_2 = start_point + a_2_i * step_size
                     a_3 = start_point + a_3_i * step_size
-                    b = start_point + b_i * step_size
+                    b = 0 + b_i * step_size
 
                     if not are_coefficients_valid(a_1, a_2, a_3, b):
                         continue
